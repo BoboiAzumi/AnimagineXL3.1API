@@ -49,4 +49,4 @@ def index():
         })
 
 if __name__ == "__main__":
-    App.run(debug=False)
+    App.run(host="0.0.0.0", debug=False)
